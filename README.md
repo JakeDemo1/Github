@@ -39,9 +39,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 moss203
 
 ## Project Status
-Currently in developemtn 
+Currently in development 
 _________
 
-Frankly this documentation is subpar at best.  It needs significant additions such as further clarification on installation instructions and how this API works.  I also would like to get feedback from someone else.  
-
-In addition, the code needs significant work also.  
