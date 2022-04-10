@@ -3,7 +3,10 @@
 # Table Of Contents
 1. Overview
 2. Instructions
-3. ToDo
+3. Roadmap
+4. Contributing
+5. Authors
+6. Project Status
 
 
 ## Overview:
@@ -32,7 +35,11 @@ The application is ready to use.  When ready to use, go create a Repo
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## Authors
+moss203
 
+## Project Status
+Currently in developemtn 
 _________
 
 Frankly this documentation is subpar at best.  It needs significant additions such as further clarification on installation instructions and how this API works.  I also would like to get feedback from someone else.  
