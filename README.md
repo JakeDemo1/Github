@@ -1,5 +1,12 @@
-# Github
+# Protected Branches API
 
+Table Of Contents
+1. Overview
+2. Instalation Instructions
+3. ToDo
+
+
+Overview:
 This is an Python API application that will listen for any webhooks from the GitHub Api and parse the data to see if the newly created branch or Repository is a protected branch and if it is not a protected branch the API will POST to the Github API and then set the branch to be protected.  
 
 Instructions on how to use.   
@@ -22,6 +29,11 @@ ToDO:
 2.  Improve efficiency of the code
 
 
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+_________
 
 Frankly this documentation is subpar at best.  It needs significant additions such as further clarification on installation instructions and how this API works.  I also would like to get feedback from someone else.  
 
