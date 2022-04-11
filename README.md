@@ -18,11 +18,11 @@ This is an Python API application that will listen for any webhooks from the Git
 2. Create a personal access token or you can create Oauth token
 3. This code is built using python3 so this will need to be installed on your machine
 4. install ngrok and configure. Follow this guideline if you need help for windows 10 https://www.youtube.com/watch?v=9gaaVbX0USI
-5. Run blah.py
-6. start ngrok by pointing to python local url which is generally something like http://127.0.0.0:5000
+5. Run demo.py
+6. Open Powershell as an admin and start ngrok by typing '''ngrok http 5000'''
 7. when running ngrok grab the url
-8. In Github add a webhook and specify When branch is created and Repo is created
-9. Put the url you grabed from ngrok into the payload URL and be sure to append the url to your pathing for the GET
+8. In Github add a webhook and specify When branch is created
+9. Put the url you grabed from ngrok into the payload URL and be sure to append the url to your pathing for the GET and save
 
 The application is ready to use.  When ready to use, go create a Repo 
 
