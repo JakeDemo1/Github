@@ -28,8 +28,11 @@ The application is ready to use.  When ready to use, go create a Repo
 
 
 ## Roadmap
-1.  Improve documenation
-2.  Improve efficiency of the code
+1.  Add the capability to take the data from the webhook and determine if protected or not and if not then apply protection rules
+2.  Add error handling in the script to skip repo if not public
+3.  Improve documentation such as adding in screenshots
+4.  Add in storage for storing logs and webhook data.  
+5.  Improve efficiency of the code such as adding functions
 
 
 ## Contributing
