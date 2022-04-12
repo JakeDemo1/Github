@@ -1,11 +1,10 @@
-from turtle import title
 from github import Github
 import os
 from pprint import pprint
 import requests 
 import json
 
-
+# script that loops over repos and their branches to protect or not protect
 access_token = ITSASECRET
 at = Github(access_token)
 for repo in at.get_user().get_repos():
