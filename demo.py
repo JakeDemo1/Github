@@ -8,20 +8,18 @@ app = Flask(__name__)
 
 @app.route('/hello')
 def root():
-  return 'Hello World!'
+  return "Hello World!"
 
 @app.route('/',methods=['POST'])  # ‘/hooktest’ specifies which link will it work on 
 def webhook():
-  data = request.json
-  pprint(data)
-  branch = content['ref'].partition('refs/heads/')[2]
-  pprint(branch)                      
+  data = json.loads(request.data)
+  repo_name = data['repository']['full_name']  
+  pprint(repo_name)     
+  branch_name = data['ref']  
+  pprint(repo_name + "/" + branch_name + " is not protected")         
   return "OK"
-  #if request.headers['Content-Types']=='application/json':  # calling json objects
-  #    return json.dumps(request.json)
-      #my_info = json.dumps(request.json)
-      #print(my_info)
-      #return my_info
-  
+
+
+
 if __name__ == '__main__':
   app.run(debug=True) 
